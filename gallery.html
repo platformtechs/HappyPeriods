@@ -17,7 +17,7 @@
 		<style>
 			/*CSS for dropdown button*/
 			.dropbtn{
-				background: #fd0001;
+				background: #c50e29;
 				color:white;
 				/*border:0px 15px 0px 15px black;*/
 				border:none;
@@ -32,7 +32,7 @@
 			.dropdown-content{
 				display:none;
 				position: absolute;
-				background-color: #fd0001;
+				background-color: #c50e29;
 				min-width:160px;
 				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 				z-index:1;
@@ -51,7 +51,7 @@
 				display: block;
 			}
 			.dropdown:hover .dropbtn{
-				background-color: #fd0001;
+				background-color: #ff867f;
 			}
 
 			/*css for gallery*/
@@ -62,11 +62,18 @@
 	    		font-size: 40pt;
 	    		margin-top: 50px;
 	    	}
+        #foot{
+             font-size: 20pt;
+             padding-top: 10px;
+            /* padding-left: 10px;
+             padding-right: 20px;
+             padding-bottom: 30px;*/
+          }
 		</style>
 	</head>
 	<body>
 		<!-- Div for Navbar -->
-		<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #fd0001;">
+		<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #c50e29;">
   			<div class="container-fluid">
     			<div class="navbar-header">
         			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -79,15 +86,15 @@
     		<div>
         	<div class="collapse navbar-collapse" id="myNavbar">
         		<ul class="nav navbar-nav">
-        		    <li><a href="file:///D:/Happy%20Periods/index.html">Home</a></li>
-        			<li><a href="file:///D:/Happy%20Periods/abouthp.html">About Us</a></li>
+        		    <li><a href="index.html">Home</a></li>
+        			<li><a href="abouthp.html">About Us</a></li>
         	  		<li>
         	  			<div class="dropdown">
 								<button class="dropbtn">Our Work</button>
 								<div class="dropdown-content">
 								
-									<a href="file:///D:/Happy%20Periods/gallery.html">Gallery</a>
-									<a href="file:///D:/Happy%20Periods/achievements.html">Achievments</a>
+									<a href="gallery.html">Gallery</a>
+									<a href="achievements.html">Achievments</a>
 								
 								</div>
 							</div>
@@ -247,6 +254,20 @@
 	</div> <!-- End modal -->
 
 </div>
+ <!-- Footer -->
+    <div class="container-fluid" style="background-color: #c50e29;">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3><span class="glyphicon glyphicon-earphone">&nbsp;9512400157</h3>
+        </div>
+        <div class="col-sm-4">
+          <h3><span class="glyphicon glyphicon-envelope">&nbsp;happyperiods1510@gmail.com</h3>
+        </div>
+        <div class="col-sm-4">
+          <center><a href="http://www.facebook.com/happyredstain" class="fa fa-facebook" id="foot"></a></center>
+        </div>
+      </div>
+    </div>
 
 	<script>
 function openModal() {
